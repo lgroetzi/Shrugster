@@ -1,23 +1,50 @@
 * {
 	background-color: #424345;
 	color: #fff;
-	text-align: center;
 }
 
 .container {
-	margin-top: 30px;
+	margin-top: 70px;
+	position: relative;
 }
 
 body {
 	font-family: 'Muli', sans-serif;
 }
 
-h1 {
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 50px;
+h1, .h1 {
+	font-size: 32px;
+	color: #fff;
+	margin-top: 260px;
+	margin-bottom: 22px;
 }
 
-h3 {
-	font-size: 20px;
-	color: #747474;
+h3, .h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	color: #979797;
+	margin-top: 265px;
+}
+
+.logo-img {
+	margin-top: -4px;
+  	margin-right: 8px;
+}
+
+.line {
+	border: 1px solid #656565;
+  	width: 680px;
+  	z-index: 1;
+}
+
+.logo {
+  	position: absolute;
+  	left: 0;
+}
+
+.phone {
+	z-index: 1000;
+	position: absolute;
+  	right: 0;
+  	top: 0;
 }
