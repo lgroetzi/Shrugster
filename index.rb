@@ -15,3 +15,7 @@ end
 get '/privacy' do
   erb :privacy
 end
+
+get '/signup' do
+  erb :signup
+end

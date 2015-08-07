@@ -18,21 +18,24 @@
 <body>
 	<div class="fluid-container">
 		<div class="container">
-			<a href="/">
-				<div class="logo" href="/">
-					<img class="inline logo-img" src="img/small-logo.png" srcset="img/small-logo@2x.png 2x" alt="Shrugster Logo">
+			<div class="header">
+				<a href="/" class="logo">
+					<img class="logo-img" src="img/small-logo.png" srcset="img/small-logo@2x.png 2x" alt="Shrugster Logo">
 					<span class="h3 inline">shrugster</span>
-				</div>
+				</a>		
 				<span class="h5">A free iOS keyboard for shruggies</span>
-			</a>
+			</div>
 		</div>
 		<%= yield %>
-		<ul class="footer">
-			<li><a href="/privacy">Privacy</a></li>
-			<li><a href="/get">Get the app</a></li>
-			<li><a href="http://www.twitter.com/teossaurus">@teossaurus</a></li>
-			<li><a href="http://www.twitter.com/lgroetzi">@lgroetzi</a></li>
-		</ul>
+		<footer>
+			<ul class="footer">
+				<li><a href="/signup">Signup</a></li>
+				<!-- <li><a href="/get">Get the app</a></li> -->
+				<li><a href="/privacy">Privacy</a></li>
+				<li><a href="http://www.twitter.com/teossaurus">@teossaurus</a></li>
+				<li><a href="http://www.twitter.com/lgroetzi">@lgroetzi</a></li>
+			</ul>
+		</footer>
 	</div>
 
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
