@@ -13,32 +13,39 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600|Muli:300,400' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
-	<title>shrugster</title>
+	<meta name="twitter:card" content="app">
+	<meta name="twitter:site" content="@shrugsterapp">
+	<meta name="twitter:description" content="Shrugster is a free iOS keyboard featuring the shruggie and six other characters. Like emojis, but cooler.">
+	<meta name="twitter:app:country" content="US">
+	<meta name="twitter:app:name:iphone" content="Shrugster">
+	<meta name="twitter:app:id:iphone" content="1023972594">
+	<meta name="Description" content="A free iOS keyboard - like emojis, but cooler. Download now">
+	<title>Shrugster | A free iOS keyboard for shruggies</title>
+
 </head>
 <body>
-	<div class="fluid-container">
-		<div class="container">
-			<div class="header">
-				<a href="/" class="logo">
-					<img class="logo-img" src="img/small-logo.png" srcset="img/small-logo@2x.png 2x" alt="Shrugster Logo">
-					<span class="h3 inline">shrugster</span>
-				</a>		
-				<span class="h5 hidden-xs">A free iOS keyboard for shruggies</span>
-				<div class="h5 hidden-sm hidden-md hidden-lg">A free iOS keyboard for shruggies</div>
-			</div>
+	<div class="container">
+		<div class="header">
+			<a href="/" class="logo">
+				<img class="logo-img" src="img/small-logo.png" srcset="img/small-logo@2x.png 2x" alt="Shrugster Logo">
+				<span class="h3 inline">shrugster</span>
+			</a>		
+			<span class="h5 hidden-xs">A free iOS keyboard for shruggies</span>
+			<div class="h5 hidden-sm hidden-md hidden-lg">A free iOS keyboard for shruggies</div>
 		</div>
 		<%= yield %>
-		<footer class="hidden-xs">
-			<ul class="footer">
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<ul>
 				<li><a href="/signup">Signup</a></li>
 				<!-- <li><a href="/get">Get the app</a></li> -->
 				<li><a href="/privacy">Privacy</a></li>
 				<li><a href="http://www.twitter.com/teossaurus">@teossaurus</a></li>
 				<li><a href="http://www.twitter.com/lgroetzi">@lgroetzi</a></li>
 			</ul>
-		</footer>
-	</div>
-
+		</div>
+	</footer>
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>

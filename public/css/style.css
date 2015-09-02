@@ -5,17 +5,14 @@
 
 body {
 	background-color: #424345;
+	margin-top: 40px;
 }
 
 .page-content {
 	margin-top: 40px;
-	position: relative;
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 }
 
-.header {
-	margin-top: 40px;
-}
 
 h1, .h1 {
 	font-family: 'Muli', sans-serif;
@@ -105,8 +102,8 @@ a:hover {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	width: 100%;
-	position: absolute;
 	bottom: 0;
+	position: fixed;
 }
 
 ul {
